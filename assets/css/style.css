@@ -12,6 +12,10 @@ body {
     padding: 0 60px;
 }
 
+.clearfix{
+    clear: both;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -46,7 +50,7 @@ a {
 
 .header_nav li {
     display: inline-block;
-    padding: 24px 10px;
+    padding: 23px 10px;
     float: right;
 }
 
@@ -59,4 +63,58 @@ a {
     border-radius: 3px;
     cursor: pointer;
     outline: none;
+}
+
+/* page intro */
+
+.page_intro {
+    width: 100%;
+    height: auto;
+    background: rgb(0, 232, 255);
+    background: linear-gradient(90deg, rgba(0, 232, 255, 1) 0%, rgba(3, 126, 255, 1) 110%);
+    padding: 50px 0;
+    
+}
+
+.page_intro_right {
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: right;
+
+}
+
+.page_intro_right h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.page_intro_right_btns{
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+.page_intro_right_btn {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 120px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 8px;
+}
+
+.page_intro_left {
+    width: 50%;
+    height: auto;
+    float: right;
+    
+}
+
+.page_intro_left img{
+    width: 100%;
+    height: auto;
 }
